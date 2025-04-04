@@ -250,54 +250,22 @@
             font-size: 1.2rem;
         }
 
-        /* Faculty Tabs */
-        .faculty-tabs {
-            display: none;
-        }
-
         .faculty-tab {
             display: none;
         }
-
-        .faculty-tab.active {
-            display: block;
-        }
-
-        .faculty-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 2rem;
-        }
-
         .faculty-card {
-            background: var(--white);
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            text-align: left;
         }
-
-        .faculty-image {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
+        .faculty-grid {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
         }
-
-        .faculty-info {
-            padding: 1.5rem;
-        }
-
-        .faculty-name {
-            color: var(--primary-color);
-            margin-bottom: 0.5rem;
-        }
-
-        .faculty-position {
-            color: var(--secondary-color);
-            font-weight: 500;
-            margin-bottom: 1rem;
-        }
-
         /* Gallery Section */
         .gallery-grid {
             display: grid;
